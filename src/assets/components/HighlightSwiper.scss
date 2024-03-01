@@ -1,0 +1,37 @@
+.highlightSwiper {
+  padding-bottom: 88px;
+}
+.swiper-link-title::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: -96px;
+  width: 70px;
+  height: 2px;
+  background-color: #fff;
+}
+.swiper-pagination {
+  font-weight: 600;
+  color: #fff;
+  top: -257px;
+  right: 16px;
+  width: auto;
+}
+
+.swiper-pagination-fraction {
+  left: 0;
+  width: auto;
+  &::after {
+    content: none;
+  }
+}
+.swiper-button-next, .swiper-button-prev {
+  position: initial;
+  margin-top: 0;
+  width: auto;
+  height: auto;
+
+  &::after {
+    content: '';
+  }
+}
