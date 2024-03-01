@@ -25,9 +25,9 @@
         </div>
       </div>
       <div class="container-fluid">
-        <div :class="{'row': isSideMenuShow, 'd-none':!isSideMenuShow}" class="justify-content-center pt-92">
+        <div :class="{'d-flex': isSideMenuShow, 'd-none':!isSideMenuShow}" class="justify-content-center pt-92">
           <div class="mw-lg-380px pt-lg-60 me-lg-42">
-            <a style="background-image: url('../../src/assets/images/side-menu-bg-1.png');" class="d-inline-block w-100 py-lg-74 ps-lg-37 pe-lg-67 rounded-5 bg-size-cover mb-lg-40 p-16" href="#">
+            <a style="background-image: url('./src/assets/images/side-menu-bg-1.png');" class="d-inline-block w-100 py-lg-74 ps-lg-37 pe-lg-67 rounded-5 bg-size-cover mb-lg-40 p-16" href="#">
               <div class="d-flex">
                 <img class="img-fluid me-27" src="../assets/images/side-menu-icon-1.png" alt="side-menu 圖示">
                 <div>
@@ -36,7 +36,7 @@
                 </div>
               </div>
             </a>
-            <a style="background-image: url('../../src/assets/images/side-menu-bg-2.png');" class="d-inline-block w-100 pt-lg-194 pb-lg-74 ps-lg-37 pe-lg-67 p-16 rounded-5 bg-size-cover" href="#">
+            <a style="background-image: url('./src/assets/images/side-menu-bg-2.png');" class="d-inline-block w-100 pt-lg-194 pb-lg-74 ps-lg-37 pe-lg-67 p-16 rounded-5 bg-size-cover" href="#">
               <div class="d-flex">
                 <img class="img-fluid me-27" src="../assets/images/side-menu-icon-2.png" alt="side-menu 圖示">
                 <div>
@@ -47,7 +47,7 @@
             </a>
           </div>
           <div class="mw-lg-380px me-lg-42">
-            <a style="background-image: url('../../src/assets/images/side-menu-bg-3.png');" class="d-inline-block w-100 pt-lg-240 pb-lg-74 ps-lg-37 pe-lg-67 p-16 rounded-5 bg-size-cover mb-lg-40" href="#">
+            <a style="background-image: url('./src/assets/images/side-menu-bg-3.png');" class="d-inline-block w-100 pt-lg-240 pb-lg-74 ps-lg-37 pe-lg-67 p-16 rounded-5 bg-size-cover mb-lg-40" href="#">
               <div class="d-flex">
                 <img class="img-fluid me-27" src="../assets/images/side-menu-icon-3.png" alt="side-menu 圖示">
                 <div>
@@ -56,7 +56,7 @@
                 </div>
               </div>
             </a>
-            <a style="background-image: url('../../src/assets/images/side-menu-bg-4.png');" class="d-inline-block w-100 py-lg-74 ps-lg-37 pe-lg-67 p-16 rounded-5 bg-size-cover" href="#">
+            <a style="background-image: url('./src/assets/images/side-menu-bg-4.png');" class="d-inline-block w-100 py-lg-74 ps-lg-37 pe-lg-67 p-16 rounded-5 bg-size-cover" href="#">
               <div class="d-flex">
                 <img class="img-fluid me-27" src="../assets/images/side-menu-icon-4.png" alt="side-menu 圖示">
                 <div>
@@ -67,7 +67,7 @@
             </a>
           </div>
           <div class="mw-lg-380px pt-lg-60">
-            <a style="background-image: url('../../src/assets/images/side-menu-bg-5.png');" class="d-inline-block w-100 pt-lg-123 pb-lg-74 ps-lg-37 pe-lg-67 rounded-5 bg-size-cover mb-lg-40" href="#">
+            <a style="background-image: url('./src/assets/images/side-menu-bg-5.png');" class="d-inline-block w-100 pt-lg-123 pb-lg-74 ps-lg-37 pe-lg-67 rounded-5 bg-size-cover mb-lg-40" href="#">
               <div class="d-flex">
                 <img class="img-fluid me-27" src="../assets/images/side-menu-icon-5.png" alt="side-menu 圖示">
                 <div>
@@ -77,7 +77,7 @@
               </div>
             </a>
             <a class="d-inline-block bg-white w-100 py-lg-74 ps-lg-37 pe-lg-67 rounded-5 bg-size-cover" href="#">
-              <div class="ms-65 ms=lg-0">
+              <div class="ms-65 ms-lg-0">
                 <p class="img-fluid mb-9 text-deep lts-18">START YOUR JOURNEY WITH US</p>
                 <h2 class="text-primary fw-bold lts-18">CONTACT</h2>
               </div>

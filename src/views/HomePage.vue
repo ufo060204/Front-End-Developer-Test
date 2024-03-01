@@ -232,7 +232,7 @@ marketing</h3>
   <section class="bg-white">
     <div class="position-lg-relative container h-lg-299px h-auto">
       <div class="mw-1300px position-lg-absolute start-lg-50npx top-lg-299npx">
-        <div style="background-image: url('../../src/assets/images/bg-founder.png');" class="rounded-end-5 rounded-bottom-5 py-lg-99 p-58 pe-lg-101 bg-size-cover">
+        <div style="background-image: url('./src/assets/images/bg-founder.png');" class="rounded-end-5 rounded-bottom-5 py-lg-99 p-58 pe-lg-101 bg-size-cover">
           <div class="d-lg-flex align-items-center">
             <div class="text-center me-lg-88">
               <img class="rounded-circle mb-39" src="../assets/images/TonyNg.png" alt="TonyNg">
@@ -262,7 +262,7 @@ marketing</h3>
     </div>
   </section>
 
-  <section style="background-image: url('../../src/assets/images/highlight-bg.png');" class="h-lg-986px bg-size-cover pt-70 pt-lg-194 rounded-bottom-5">
+  <section style="background-image: url('./src/assets/images/highlight-bg.png');" class="h-lg-986px bg-size-cover pt-70 pt-lg-194 rounded-bottom-5">
     <HighlightSwiper />
   </section>
 
