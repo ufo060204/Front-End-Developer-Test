@@ -25,10 +25,10 @@
         </div>
       </div>
       <div class="container-fluid">
-        <div :class="{'d-flex': isSideMenuShow, 'd-none':!isSideMenuShow}" class="justify-content-center pt-92">
+        <div :class="{'d-lg-flex': isSideMenuShow, 'd-none':!isSideMenuShow}" class="justify-content-center pt-92">
           <div class="mw-lg-380px pt-lg-60 me-lg-42">
-            <a class="sideMenu-bg-1 d-inline-block w-100 py-lg-74 ps-lg-37 pe-lg-67 rounded-5 bg-size-cover mb-lg-40 p-16" href="#">
-              <div class="d-flex">
+            <a class="sideMenu-bg-1 d-inline-block w-100 py-lg-74 ps-lg-37 pe-lg-67 p-md-2 rounded-5 bg-size-cover mb-lg-40 p-16" href="#">
+              <div class="d-flex align-items-center align-items-lg-start justify-content-center justify-content-lg-start">
                 <img class="img-fluid me-27" src="../assets/images/side-menu-icon-1.png" alt="side-menu 圖示">
                 <div>
                   <p class="mb-9 text-white lts-18">EMPOWERING BRANDS</p>
@@ -36,8 +36,8 @@
                 </div>
               </div>
             </a>
-            <a class="sideMenu-bg-2 d-inline-block w-100 pt-lg-194 pb-lg-74 ps-lg-37 pe-lg-67 p-16 rounded-5 bg-size-cover" href="#">
-              <div class="d-flex">
+            <a class="sideMenu-bg-2 p-md-2 d-inline-block w-100 pt-lg-194 pb-lg-74 ps-lg-37 pe-lg-67 p-16 rounded-5 bg-size-cover" href="#">
+              <div class="d-flex align-items-center align-items-lg-start justify-content-center justify-content-lg-start">
                 <img class="img-fluid me-27" src="../assets/images/side-menu-icon-2.png" alt="side-menu 圖示">
                 <div>
                   <p class="mb-9 text-white lts-18">CASE STUDIES</p>
@@ -47,18 +47,18 @@
             </a>
           </div>
           <div class="mw-lg-380px me-lg-42">
-            <a class="sideMenu-bg-3 d-inline-block w-100 pt-lg-240 pb-lg-74 ps-lg-37 pe-lg-67 p-16 rounded-5 bg-size-cover mb-lg-40" href="#">
-              <div class="d-flex">
-                <img class="img-fluid me-27" src="../assets/images/side-menu-icon-3.png" alt="side-menu 圖示">
+            <a class="sideMenu-bg-3 d-inline-block w-100 pt-lg-240 pb-lg-74 ps-lg-37 pe-lg-67 p-md-2 p-16 rounded-5 bg-size-cover mb-lg-40" href="#">
+              <div class="d-flex align-items-center justify-content-center d-lg-block">
+                <img class="img-fluid me-27 mb-lg-28" src="../assets/images/side-menu-icon-3.png" alt="side-menu 圖示">
                 <div>
                   <p class="mb-9 text-white lts-18">EMPBE COOL WITH US</p>
                   <h2 class="text-white fw-bold lts-18">CAREERS</h2>
                 </div>
               </div>
             </a>
-            <a class="sideMenu-bg-4 d-inline-block w-100 py-lg-74 ps-lg-37 pe-lg-67 p-16 rounded-5 bg-size-cover" href="#">
-              <div class="d-flex">
-                <img class="img-fluid me-27" src="../assets/images/side-menu-icon-4.png" alt="side-menu 圖示">
+            <a class="sideMenu-bg-4 d-inline-block w-100 py-lg-74 ps-lg-37 pe-lg-67 p-16 rounded-5 p-md-2 bg-size-cover" href="#">
+              <div class="d-flex align-items-center justify-content-center d-lg-block">
+                <img class="img-fluid me-27 mb-lg-15" src="../assets/images/side-menu-icon-4.png" alt="side-menu 圖示">
                 <div>
                   <p class="mb-9 text-white lts-18">OUR STRATEGIES</p>
                   <h2 class="text-white fw-bold lts-18">INSIGHTS</h2>
@@ -67,18 +67,18 @@
             </a>
           </div>
           <div class="mw-lg-380px pt-lg-60">
-            <a class="sideMenu-bg-5 d-inline-block w-100 pt-lg-123 pb-lg-74 ps-lg-37 pe-lg-67 rounded-5 bg-size-cover mb-lg-40" href="#">
-              <div class="d-flex">
-                <img class="img-fluid me-27" src="../assets/images/side-menu-icon-5.png" alt="side-menu 圖示">
+            <a class="sideMenu-bg-5 d-inline-block w-100 pt-lg-123 pb-lg-74 ps-lg-37 pe-lg-67 rounded-5 p-md-2 bg-size-cover mb-lg-40" href="#">
+              <div class="d-flex align-items-center justify-content-center d-lg-block">
+                <img class="img-fluid me-27 mb-lg-15" src="../assets/images/side-menu-icon-5.png" alt="side-menu 圖示">
                 <div>
                   <p class="mb-9 text-white lts-18">AREAS OF EXPERTISE</p>
                   <h2 class="text-white fw-bold lts-18">SERVICES</h2>
                 </div>
               </div>
             </a>
-            <a class="d-inline-block bg-white w-100 py-lg-74 ps-lg-37 pe-lg-67 rounded-5 bg-size-cover" href="#">
-              <div class="ms-65 ms-lg-0">
-                <p class="img-fluid mb-9 text-deep lts-18">START YOUR JOURNEY WITH US</p>
+            <a class="d-inline-block bg-white p-md-2 w-100 py-lg-74 ps-lg-37 pe-lg-67 rounded-5 bg-size-cover" href="#">
+              <div class="text-center text-lg-start">
+                <p class="mb-9 text-deep lts-18 text-nowrap">START YOUR JOURNEY WITH US</p>
                 <h2 class="text-primary fw-bold lts-18">CONTACT</h2>
               </div>
             </a>
